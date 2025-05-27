@@ -1,4 +1,4 @@
-package com.exercise.Exception_BlogAPI.model;
+package com.exercise.exceptionblog.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

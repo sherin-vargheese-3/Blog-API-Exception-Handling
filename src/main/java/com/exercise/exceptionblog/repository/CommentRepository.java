@@ -1,6 +1,6 @@
-package com.exercise.Exception_BlogAPI.repository;
+package com.exercise.exceptionblog.repository;
 
-import com.exercise.Exception_BlogAPI.model.Comment;
+import com.exercise.exceptionblog.model.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

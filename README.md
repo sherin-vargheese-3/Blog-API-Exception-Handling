@@ -6,4 +6,4 @@ A simple blog API with centralized error handling and clear, consistent error me
 
 ## Project structure
 
-*   **[com.exercise.Exception_BlogAPI](src/main/java/com/exercise/Exception_BlogAPI)**: The main application package.
+*   **[com.exercise.exceptionblog](src/main/java/com/exercise/exceptionblog)**: The main application package.

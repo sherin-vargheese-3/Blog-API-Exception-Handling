@@ -1,6 +1,6 @@
-package com.exercise.Exception_BlogAPI.exception;
+package com.exercise.exceptionblog.exception;
 
-import com.exercise.Exception_BlogAPI.model.ErrorResponse;
+import com.exercise.exceptionblog.model.ErrorResponse;
 import jakarta.validation.ConstraintViolationException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataIntegrityViolationException;

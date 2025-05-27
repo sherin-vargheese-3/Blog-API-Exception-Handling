@@ -1,4 +1,4 @@
-package com.exercise.Exception_BlogAPI.model;
+package com.exercise.exceptionblog.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,15 +10,17 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "posts")
-public class Post {
+@Builder
+@Table(name = "comments")
+public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String title;
     private String content;
+
+    @ManyToOne
+    private Post post;
     private LocalDateTime createdAt = LocalDateTime.now();
 }

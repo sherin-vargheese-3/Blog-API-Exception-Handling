@@ -1,4 +1,4 @@
-package com.exercise.Exception_BlogAPI;
+package com.exercise.exceptionblog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

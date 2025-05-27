@@ -1,13 +1,13 @@
-package com.exercise.Exception_BlogAPI.service;
+package com.exercise.exceptionblog.service;
 
-import com.exercise.Exception_BlogAPI.dtos.CommentDTO;
-import com.exercise.Exception_BlogAPI.dtos.PostDTO;
-import com.exercise.Exception_BlogAPI.exception.ResourceNotFoundException;
-import com.exercise.Exception_BlogAPI.exception.UnauthorizedException;
-import com.exercise.Exception_BlogAPI.model.Comment;
-import com.exercise.Exception_BlogAPI.model.Post;
-import com.exercise.Exception_BlogAPI.repository.CommentRepository;
-import com.exercise.Exception_BlogAPI.repository.PostRepository;
+import com.exercise.exceptionblog.dtos.CommentDTO;
+import com.exercise.exceptionblog.dtos.PostDTO;
+import com.exercise.exceptionblog.exception.ResourceNotFoundException;
+import com.exercise.exceptionblog.exception.UnauthorizedException;
+import com.exercise.exceptionblog.model.Comment;
+import com.exercise.exceptionblog.model.Post;
+import com.exercise.exceptionblog.repository.CommentRepository;
+import com.exercise.exceptionblog.repository.PostRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

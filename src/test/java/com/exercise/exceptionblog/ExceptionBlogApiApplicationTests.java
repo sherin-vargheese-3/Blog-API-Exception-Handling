@@ -1,4 +1,4 @@
-package com.exercise.Exception_BlogAPI;
+package com.exercise.exceptionblog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

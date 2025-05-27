@@ -1,6 +1,6 @@
-package com.exercise.Exception_BlogAPI.repository;
+package com.exercise.exceptionblog.repository;
 
-import com.exercise.Exception_BlogAPI.model.Post;
+import com.exercise.exceptionblog.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PostRepository extends JpaRepository<Post, Long> {
